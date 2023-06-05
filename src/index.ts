@@ -181,7 +181,7 @@ function init3D() {
   assets.then((data) => {
     model = data.model.scene;
     const { animations } = data.model;
-    console.log(animations);
+    // console.log(animations);
 
     const { texture } = data;
 
